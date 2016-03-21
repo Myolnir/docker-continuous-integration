@@ -34,7 +34,7 @@ This image contains a Jenkins and a Sonar installation
 # Some useful commands:
 
     # Build the image
-    $ docker build --tag="ehdez73/docker-ci" .
+    $ docker build --tag="myolnir/docker-continuous-integration" .
 
     # Run a container
     $ docker docker run -d \
@@ -42,7 +42,7 @@ This image contains a Jenkins and a Sonar installation
           -p 9000:9000 \
           -p 9092:9092 \
           --name="ci" \
-          ehdez73/docker-ci
+          myolnir/docker-continuous-integration
 
     # Attach to the container
     $ docker exec -i -t ci /bin/bash

@@ -57,7 +57,7 @@ This image contains a Jenkins and a Sonar installation
     $ docker rm ci
 
     # remove the image
-    $ docker rmi ehdez73/docker-ci
+    $ docker rmi myolnir/docker-continuous-integration
 
 
 ## Usage

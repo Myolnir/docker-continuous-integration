@@ -64,3 +64,6 @@ This image contains a Jenkins and a Sonar installation
 * Browse to Jenkins : [http://localhost:8888](http://localhost:8888)
 * Browse to Sonar : [http://localhost:9000](http://localhost:9000)
 * Sonar DB : jdbc:h2:tcp://localhost:9092/sonar
+
+
+[![](https://images.microbadger.com/badges/image/myolnir/docker-continuous-integration.svg)](https://microbadger.com/images/myolnir/docker-continuous-integration "Get your own image badge on microbadger.com")

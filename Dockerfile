@@ -5,6 +5,8 @@ EXPOSE 9000
 EXPOSE 9092
 EXPOSE 8080
 
+RUN apt-get purge software-properties-gtk software-properties-common
+RUN apt-get install software-properties-gtk software-properties-common
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository -y ppa:webupd8team/java
 RUN apt-get update

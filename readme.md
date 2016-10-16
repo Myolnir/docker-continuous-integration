@@ -2,6 +2,8 @@
 
 This image contains a Jenkins and a Sonar installation
 
+[![](https://images.microbadger.com/badges/image/myolnir/docker-continuous-integration.svg)](https://microbadger.com/images/myolnir/docker-continuous-integration "Get your own image badge on microbadger.com")
+
 * Jenkins 1.647 with plugins:
    * git
    * git-client

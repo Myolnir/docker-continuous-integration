@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM ubuntu:14.04
 MAINTAINER Angel Muelas "angel.muelas@gmail.com"
 
 EXPOSE 9000
